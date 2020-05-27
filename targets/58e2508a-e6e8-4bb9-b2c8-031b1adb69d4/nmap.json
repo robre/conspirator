@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue May 26 19:48:02 2020 as: nmap -sS -sV -p- -T4 --max-retries=2 --host-timeout=10s -oG targets/58e2508a-e6e8-4bb9-b2c8-031b1adb69d4/nmap.json 127.0.0.1
+Host: 127.0.0.1 (localhost)	Status: Up
+Host: 127.0.0.1 (localhost)	Status: Timeout
+# Nmap done at Tue May 26 19:48:14 2020 -- 1 IP address (1 host up) scanned in 12.37 seconds

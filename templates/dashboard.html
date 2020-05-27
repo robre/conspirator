@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title></title>
+    <style></style>
+  </head>
+  <body>
+    <h2>conspirator recon automation</h2>
+    <h3>{{ target['target'] }}</h3>
+    <div class="content"></div>
+    <script>
+      target = {{ target['target'] }};
+      uid = {{ target['uid'] }};
+      static = '/targets/' + uid + '/';
+      nmap_json = static + 'nmap.json';
+      ffuf_json = static + 'ffuf.json';
+      about_json = static + 'about.json';
+      
+    </script>
+  </body>
+</html>
+
